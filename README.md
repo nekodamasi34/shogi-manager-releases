@@ -1,2 +1,29 @@
-# shogi-manager-releases
-Shogi Manager Windows releases and teai card template
+# Shogi Manager 配布ファイル
+
+将棋教室向け Windows アプリの配布ページです。
+
+## ダウンロード
+
+[最新リリース](https://github.com/nekodamasi34/shogi-manager-releases/releases/latest) の
+`ShogiManager_バージョン.zip` をダウンロードし、フォルダごと展開して
+`ShogiManager.exe` を起動してください。Python のインストールは不要です。
+
+`手合カード.xlsx` は初回導入用 ZIP に同梱し、リリースの添付から単体でも取得できます。
+
+## 更新
+
+1.2.0 以降は起動時に更新を確認します。「設定」の「更新して再起動」から適用できます。
+更新時も名簿・対局記録・設定・独自テンプレートを保持します。
+更新専用の `ShogiManager_バージョン_update.zip` はアプリが使用するファイルです。
+
+1.1.0 からの初回更新は、アプリを終了し、新版 ZIP の `ShogiManager.exe`、
+`ShogiUpdater.exe`、`_internal` フォルダ、アイコンを既存フォルダに置き換えてください。
+名簿・対局記録・設定・アプリ横の編集済み `手合カード.xlsx` は残してください。
+
+## 手合カード
+
+標準テンプレートと編集用コピーを同梱しています。
+手合カード作成タブで「自動」「標準」「独自」を選択できます。
+標準はアップデートに追従し、独自を選ぶとアプリ横の `手合カード.xlsx` を使用します。
+
+このリポジトリは配布用です。運用中の名簿や対局データは含まれていません。
